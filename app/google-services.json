@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "861846563753",
+    "firebase_url": "https://rrefirebaseproject.firebaseio.com",
+    "project_id": "rrefirebaseproject",
+    "storage_bucket": "rrefirebaseproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:861846563753:android:042df6d88c3c9259ad72b8",
+        "android_client_info": {
+          "package_name": "com.example.rre"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "861846563753-9hm4b7umdgg6u9q1e28baanvh1i58160.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rre",
+            "certificate_hash": "23232d3086fdf3a9ab57f3ea8106c05c8f41eb29"
+          }
+        },
+        {
+          "client_id": "861846563753-ssf1b0g50j4p5jefg7vv5et0fqf6bo3i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0aXVuw9F6JZ-sQmUMF8sBVM-xZKdUJcE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "861846563753-ssf1b0g50j4p5jefg7vv5et0fqf6bo3i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

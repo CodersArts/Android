@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ggg"
+    tools:context=".LoginActivity">
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="120dp"
+        android:src="@drawable/good"
+        android:id="@+id/tv"
+        android:layout_height="150dp"
+        android:layout_width="150dp"/>
+
+    <EditText
+        android:paddingLeft="10dp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:layout_below="@+id/tv"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/email"
+        android:textColorHint="#FF7F00"
+        android:hint="  Email ID"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/edit_back"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:paddingLeft="10dp"
+        android:drawableLeft="@drawable/ic_verified_user_black_24dp"
+        android:layout_below="@+id/email"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/pass"
+        android:inputType="textPassword"
+        android:textColorHint="#FF7F00"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_back"
+        android:hint="  Password" />
+    <Button
+        android:layout_below="@+id/pass"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/signup"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:text="Login"
+        android:background="@drawable/e"
+        />
+
+
+</RelativeLayout>

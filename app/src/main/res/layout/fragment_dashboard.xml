@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@drawable/ggg"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <TextView
+        android:textAlignment="center"
+        android:id="@id/tv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"/>
+
+    <GridLayout
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="80dp"
+        android:columnCount="1"
+        android:rowCount="3"
+        android:alignmentMode="alignMargins"
+        android:columnOrderPreserved="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardElevation="6dp"
+        android:layout_margin="12dp"
+        app:cardCornerRadius="12dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        >
+        <LinearLayout
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:hint="From"
+                android:textSize="20dp"
+                android:layout_width="60dp"
+                android:layout_height="fill_parent"/>
+         <EditText
+             android:drawableLeft="@drawable/ic_business_black_24dp"
+             android:hint="   Origin Of Trip"
+             android:layout_width="fill_parent"
+             android:layout_height="40dp">
+
+         </EditText>
+            <TextView
+
+                android:layout_marginLeft="15dp"
+                android:hint="To"
+                android:textSize="20dp"
+                android:layout_width="30dp"
+                android:layout_height="fill_parent"/>
+           <EditText
+               android:hint="   Enter Destination"
+               android:drawableLeft="@drawable/ic_business_black_24dp"
+               android:id="@+id/destination"
+               android:layout_width="fill_parent"
+               android:layout_height="40dp"/>
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            app:cardElevation="6dp"
+            android:layout_margin="12dp"
+            app:cardCornerRadius="12dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1">
+
+            <DatePicker
+                android:id="@+id/datePick"
+                android:layout_width="match_parent"
+                android:layout_height="493dp" />
+            <Button
+                android:background="@drawable/edit_back"
+                android:layout_marginTop="430dp"
+                android:text="Update Trip"
+                android:id="@+id/button1"
+                android:layout_width="100dp"
+                android:layout_marginLeft="130dp"
+                android:layout_height="50dp"/>
+            <TextView
+                android:layout_margin="25dp"
+                android:textSize="30dp"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/txt"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            app:cardElevation="6dp"
+            android:layout_margin="12dp"
+            app:cardCornerRadius="12dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1">
+
+            <Button
+                android:background="@drawable/edit_back"
+                android:text="Book Now"
+                android:id="@+id/Book"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+
+        </androidx.cardview.widget.CardView>
+    </GridLayout>
+    </LinearLayout>
+</ScrollView>
