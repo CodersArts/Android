@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="home"
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home_black_24dp"
+        app:showAsAction="never"
+        />
+    <item
+        app:showAsAction="always"
+        android:icon="@drawable/ic_info_black_24dp"
+        android:title="info"
+        android:id="@+id/info"
+        />
+    <item
+        app:showAsAction="never"
+        android:title="logout"
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+        />
+    <item
+        app:showAsAction="always"
+        android:title="Apply Now"
+        android:id="@+id/hs"
+        android:icon="@drawable/ic_tag_faces_black_24dp"
+        />
+
+
+
+
+
+
+</menu>
